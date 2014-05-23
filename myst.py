@@ -66,8 +66,8 @@ class Search:
     data = web.input()
     search=user.GetSearch(data['q'])
     feed_str = "<p>"
-    for items in search:
-      feed_str = feed_str + getattr(s.user,"screen_name") + ": " + getattr(s,"text") + "<br />"
+    for item in search:
+      feed_str = feed_str + getattr(item.user,"screen_name") + ": " + getattr(item,"text") + "<br />"
     return feed_str + "</p>"
 
 app = web.application(urls, globals())
