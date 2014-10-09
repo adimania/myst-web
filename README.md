@@ -1,7 +1,7 @@
 myst-web
 ========
 
-A slightly modified version of MYST project to tweet over web when twitter is not accessible 
+A slightly modified version of MYST project to tweet over web when twitter is not accessible. This was hacked in a day when I had to travel to China where Twitter is not allowed.
 
 * Twitter is not available where I am right now, so I have created this small script that can be hosted on any server from where twitter can be accessed.
 * A POST request to /tweet will tweet.
